@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     
 </head>
-<body class=" py-7 mx-40">
+<body class=" py-7 mx-40 font-lato">
   <div class="">
    <div class=" mx-14">
     <!-- Nav bar -->
@@ -39,7 +39,7 @@
             <div class="md:hidden justify-end text-end">
                 <button id="menu-toggle" class="flex m-auto items-baseline border-solid text-white focus:outline-none">
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4 6h16M4 12h16m-7 6h7"></path>
                   </svg>
                 </button>
                 <div id="menu" class="hidden p-4 space-y-4">
@@ -183,10 +183,10 @@
         </div>
       </div>
       <!-- card part -->
-      <div class="card mx-14">
+      <div class="relative card mx-14">
         <div class="md:flex justify-between mx-14 my-12">
           <div class="card border-gray-950 shadow-xl  w-80">
-            <figure><img class="pt-12" src="images/fruit6.png" alt="Shoes" /></figure>
+            <figure class=""><img class="pt-12" src="images/fruit6.png" alt="Shoes" /></figure>
             <div class="card-body items-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
               <hr class="w-1/2">
@@ -204,86 +204,124 @@
                 <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
                 <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
               </div>
-              <div class="card-actions justify-end">
-                <button class="text-[#F85559] pt-8 pb-12">Details</button>
-              </div>
-            </div>
-          </div>
-          <div class="card shadow-xl  w-80">
-            <figure><img class="pt-12" src="images/fruit7.png" alt="Shoes" /></figure>
-            <div class="card-body items-center">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
-              <hr class="w-1/2">
-              <p>Orange</p>
-              <div class="rating rating-lg rating-half h-6 w-40 pb-8">
-                <input type="radio" name="rating-10" class="rating-hidden" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-              </div>
-              <div class="card-actions justify-end">
-                <button class="text-[#F85559] pt-8 pb-12">Details</button>
-              </div>
-            </div>
-          </div>
-          <div class="card shadow-xl  w-80">
-            <figure><img class="pt-12" src="images/fruit8.png" alt="Shoes" /></figure>
-            <div class="card-body items-center">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
-              <hr class="w-1/2">
-              <p>Red Dragon</p>
-              <div class="rating rating-lg rating-half h-6 w-40 pb-8">
-                <input type="radio" name="rating-10" class="rating-hidden" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-              </div>
-              <div class="card-actions justify-end">
-                <button class="text-[#F85559] pt-8 pb-12">Details</button>
-              </div>
-            </div>
-          </div>
-          <div class="card shadow-xl  w-80">
-            <figure><img class="pt-12" src="images/fruit9.png" alt="Shoes" /></figure>
-            <div class="card-body items-center">
-              <h2 class="card-title">12.90$ - 18.85$</h2>
-              <hr class="w-1/2">
-              <p>Bananna</p>
-              <div class="rating rating-lg rating-half h-6 w-40 pb-8">
-                <input type="radio" name="rating-10" class="rating-hidden" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1"  checked/>
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
-                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
-              </div>
-              <div class="card-actions justify-end">
-                <button class="text-[#F85559] pt-8 pb-12">Details</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
+              <div class="overflow-hidden">
+                <div class="card-actions justify-end">
+                  <label for="my_modal_7" class=" cursor-pointer rounded text-[#F85559] pt-8 pb-12">Details</label>
+                  
+                </div>
+                <!-- hidden toogle -->
+
+                                    <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+                                          <div class="modal">
+                                            <div class="modal-box">
+                                              <div class="relative card flex">
+                                                <figure class="relative"><img class="pt-12" src="images/fruit7.png" alt="Shoes" /></figure>
+                                                <div class="card-body items-center">
+                                            
+                                                  <hr class="w-1/2">
+                                                  <p>Orange</p>
+                                                  <div class="rating rating-lg rating-half h-6 w-40 pb-8">
+                                                    <input type="radio" name="rating-10" class="rating-hidden" />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                                    <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                                  </div>
+                                        <div class="card-actions justify-end gap-3 pt-4">
+                                          <button class="btn btn-outline btn-secondary">Buy Now</button>
+                                          <button class="btn btn-secondary">Close</button>
+                                        </div>
+                            </div>
+                          </div>
+                        </div>
+                        <label class="modal-backdrop" for="my_modal_7">Close</label>
+                      </div>
+                  
+                
+                              </div>
+                            </div>
+                          </div>
+                          <div class="relative card shadow-xl  w-80">
+                            <figure class="relative"><img class="pt-12" src="images/fruit7.png" alt="Shoes" /></figure>
+                            <div class="card-body items-center">
+                              <h2 class="card-title">12.90$ - 18.85$</h2>
+                              <hr class="w-1/2">
+                              <p>Orange</p>
+                              <div class="rating rating-lg rating-half h-6 w-40 pb-8">
+                                <input type="radio" name="rating-10" class="rating-hidden" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                              </div>
+                              <div class="card-actions justify-end">
+                                <button for="my_modal_7" class="text-[#F85559] pt-8 pb-12">Details</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card shadow-xl  w-80">
+                            <figure><img class="pt-12" src="images/fruit8.png" alt="Shoes" /></figure>
+                            <div class="card-body items-center">
+                              <h2 class="card-title">12.90$ - 18.85$</h2>
+                              <hr class="w-1/2">
+                              <p>Red Dragon</p>
+                              <div class="rating rating-lg rating-half h-6 w-40 pb-8">
+                                <input type="radio" name="rating-10" class="rating-hidden" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" checked />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                              </div>
+                              <div class="card-actions justify-end">
+                                <button class="text-[#F85559] pt-8 pb-12">Details</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card shadow-xl  w-80">
+                            <figure><img class="pt-12" src="images/fruit9.png" alt="Shoes" /></figure>
+                            <div class="card-body items-center">
+                              <h2 class="card-title">12.90$ - 18.85$</h2>
+                              <hr class="w-1/2">
+                              <p>Bananna</p>
+                              <div class="rating rating-lg rating-half h-6 w-40 pb-8">
+                                <input type="radio" name="rating-10" class="rating-hidden" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1"  checked/>
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-10" class="bg-orange-400 mask mask-star-2 mask-half-2" />
+                              </div>
+                              <div class="card-actions justify-end">
+                                <button class="text-[#F85559] pt-8 pb-12">Details</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      
       <!-- button -->
       <div class=" flex justify-center">
 
